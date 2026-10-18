@@ -1,0 +1,13 @@
+{
+  "id": "ytvideo-test",
+  "name": "Prueba TubeKino Resolver",
+  "version": "0.1.0",
+  "apiVersion": 11,
+  "entry": "plugin.js",
+  "description": "Prueba del protocolo ytvideo con la app TubeKino Resolver (Fase 0)",
+  "author": "Susejing",
+  "hosts": ["github.com"],
+  "capabilities": ["home", "search", "resolve", "externalResolve"],
+  "externalResolver": { "package": "com.susejing.tubekino" },
+  "discoverable": false
+}
